@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: warframe-assistant
+
+warframe:
+  cetus:
+    url: https://content.warframe.com/MobileExport/Manifest/CetusCycle.json
+  vallis:
+    url: https://content.warframe.com/MobileExport/Manifest/VallisCycle.json
+  cambionet:
+    url: https://content.warframe.com/MobileExport/Manifest/CambionetCycle.json
+  update-interval: 60000
+
+astrobot:
+  enabled: true
+  api-path: /api/astrobot
